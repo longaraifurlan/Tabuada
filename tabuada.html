@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="tabuada.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Número:
+                <input type="number" name="numero" id="numero" style="text-align: center;">
+                <input type="button" value="Gerar Tabuada" onclick="gerar_tabuada()">
+            </p>
+        </div>
+        <div>
+            <select name="tabuada" id="seltab" size="10">
+                <option value="v1">Valor1</option>
+                <option value="v2">Valor2</option>
+
+            </select>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Marca Copyright</p>
+    </footer>
+    <script src="tabuada.js"></script>
+</body>
+</html>
